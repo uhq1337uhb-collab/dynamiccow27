@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- fix 1.2: required by the TCC preflight used by grant_full_disk_access.m
+	     (the original Info.plist was an empty dict, so the key was missing) -->
+	<key>NSAppleMusicUsageDescription</key>
+	<string>DynamicCow needs media library access to apply the Dynamic Island configuration.</string>
+	<key>CFBundleDisplayName</key>
+	<string>DynamicCow</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+</dict>
+</plist>
